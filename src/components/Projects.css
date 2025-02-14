@@ -1,0 +1,49 @@
+/* src/components/Projects.css */
+.projects-section {
+  padding: 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.projects-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.project-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.project-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
